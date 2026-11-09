@@ -141,19 +141,6 @@ Extra operations are available through the API (`/docs`, under "Operations & Con
 
 ---
 
-## Interview demo script (about 5 minutes)
-
-1. `python main.py`, then open `/dashboard`. System health shows Ollama, OCR and core banking are live.
-2. Click **Run all scenarios**. The KPIs, chart and recent emails fill up.
-3. Click the **Partial** row (Scenario 5): account valid, card invalid, balance given, card flagged.
-4. Click a **Statement** row (Scenario 3): no account number, so it's found from the registered email.
-5. Switch **Core banking connection → MCP**, then run Scenario 4. The email details show `mcp` on each API call.
-6. Tick **Hold flagged replies for approval**, then run Scenario 6 (angry customer). It appears under "Waiting for approval": click **Approve**.
-7. Run "13. Image Attachment (OCR)": the account and card numbers are read from a PNG form.
-8. Optional: start the Gmail worker and email the inbox live.
-
----
-
 ## Project structure
 
 ```
