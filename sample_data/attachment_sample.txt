@@ -1,0 +1,4 @@
+Customer Account Inquiry Form
+Account Number: 1234567890
+Customer Name: John Doe
+Reason: Balance check

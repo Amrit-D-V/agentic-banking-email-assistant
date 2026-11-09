@@ -1,0 +1,727 @@
+[
+ {
+  "id": "E01",
+  "body": "Please provide my savings account balance for account number 1234567890.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E02",
+  "body": "Please share my last 5 credit card transactions for card 4567XXXX8901.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "count": 5,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E03",
+  "body": "Kindly send my bank statement for April 2026.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [],
+  "cards": [],
+  "period": "April 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E04",
+  "body": "Please share my account balance for account 1234567890 and also send last 3 transactions of my credit card 987654321.",
+  "intents": [
+   "BALANCE_ENQUIRY",
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [
+   "987654321"
+  ],
+  "count": 3,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E05",
+  "body": "Please provide balance for account 1234567890 and card transactions for card 999999999.",
+  "intents": [
+   "BALANCE_ENQUIRY",
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [
+   "999999999"
+  ],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E06",
+  "body": "How much money do I have in a/c 1234567890?",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E07",
+  "body": "Can you tell me the available balance in my savings acct 5555666677 please",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "5555666677"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E08",
+  "body": "what is the balance of account no. 9876543210",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "9876543210"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E09",
+  "body": "Need to check my current balance for account 1234509876 before I make a payment.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234509876"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E10",
+  "body": "Hi team, could you share the balance for my account 1234567890? Thanks a lot.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "POSITIVE"
+ },
+ {
+  "id": "E11",
+  "body": "Show me the last ten transactions on my credit card 4567123456788901.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567123456788901"
+  ],
+  "count": 10,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E12",
+  "body": "I want to see my recent card spends for card ending 4567XXXX8901.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E13",
+  "body": "Please list the latest 2 purchases made using my credit card 987654321.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "987654321"
+  ],
+  "count": 2,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E14",
+  "body": "What did I spend on card 5240 1234 1234 9012 recently? Send the usage details.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "5240123412349012"
+  ],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E15",
+  "body": "Send credit card statement for card 4567XXXX8901",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E16",
+  "body": "Please email me the account statement for March 2026 for account 1234567890.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "period": "March 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E17",
+  "body": "I need my bank statement from 01/02/2026 to 28/02/2026.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [],
+  "cards": [],
+  "period": "01 Feb 2026 to 28 Feb 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E18",
+  "body": "Kindly share e-statement for January to March 2026.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [],
+  "cards": [],
+  "period": "January to March 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E19",
+  "body": "Please send my account statement for Q1 2026.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [],
+  "cards": [],
+  "period": "Q1 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E20",
+  "body": "Can I get the statement for FY 2025-26 for my savings account 5555666677?",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [
+   "5555666677"
+  ],
+  "cards": [],
+  "period": "FY 2025-26",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E21",
+  "body": "Please mail my bank statement.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E22",
+  "body": "Send statement for Apr-2026 please",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [],
+  "cards": [],
+  "period": "April 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E23",
+  "body": "What is the minimum balance required for a savings account in a metro branch?",
+  "intents": [
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E24",
+  "body": "What are the penalty charges if my average monthly balance falls below the limit?",
+  "intents": [
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E25",
+  "body": "How do I raise a dispute for a transaction I don't recognise? What is the zero liability rule?",
+  "intents": [
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E26",
+  "body": "What is the password for opening my e-statement PDF?",
+  "intents": [
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E27",
+  "body": "What interest rate do you offer on savings accounts?",
+  "intents": [
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E28",
+  "body": "I would like to apply for a home loan. What documents are needed?",
+  "intents": [
+   "GENERAL_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E29",
+  "body": "Please update my residential address in your records.",
+  "intents": [
+   "GENERAL_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E30",
+  "body": "I want to open a fixed deposit of 2 lakhs.",
+  "intents": [
+   "GENERAL_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E31",
+  "body": "Thank you for resolving my issue so quickly, great service!",
+  "intents": [
+   "GENERAL_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "POSITIVE"
+ },
+ {
+  "id": "E32",
+  "body": "This is unacceptable! I have been waiting for days. Send my balance for account 1234567890 immediately.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEGATIVE_URGENT"
+ },
+ {
+  "id": "E33",
+  "body": "URGENT: I see unauthorized transactions on my card 4567XXXX8901, show me the last 5 transactions now!!",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "count": 5,
+  "sentiment": "NEGATIVE_URGENT"
+ },
+ {
+  "id": "E34",
+  "body": "Very disappointed with your service. Still no statement for April 2026 for account 1234567890.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "period": "April 2026",
+  "sentiment": "NEGATIVE_URGENT"
+ },
+ {
+  "id": "E35",
+  "body": "I will escalate this to the banking ombudsman if you don't share my account 1234567890 balance today.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEGATIVE_URGENT"
+ },
+ {
+  "id": "E36",
+  "body": "Your app is the worst. I just need the balance of my account 5555666677.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "5555666677"
+  ],
+  "cards": [],
+  "sentiment": "NEGATIVE_URGENT"
+ },
+ {
+  "id": "E37",
+  "body": "Please share balance for account 1234567890 and account 1234509876.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890",
+   "1234509876"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E38",
+  "body": "Need last 2 transactions for card 4567XXXX8901 and card 987654321.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901",
+   "987654321"
+  ],
+  "count": 2,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E39",
+  "body": "Show the last 4 transactions for card 999999999 and the balance of account 1234567890.",
+  "intents": [
+   "BALANCE_ENQUIRY",
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [
+   "999999999"
+  ],
+  "count": 4,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E40",
+  "body": "Balance for account 1234567890, statement for March 2026, and last 3 card transactions on 4567XXXX8901 please.",
+  "intents": [
+   "BALANCE_ENQUIRY",
+   "STATEMENT_REQUEST",
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "count": 3,
+  "period": "March 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E41",
+  "body": "Please share my balance for account 1234567890. You can call me on 9876501234 if needed.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E42",
+  "body": "My ticket reference is 4455667788. I still need the account 1234567890 balance.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E43",
+  "body": "pls send bal of acc 1234567890",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E44",
+  "body": "plz share balence for my acount 1234567890",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E45",
+  "body": "Can u send last 3 txns of my card 987654321",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "987654321"
+  ],
+  "count": 3,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E46",
+  "body": "Mera account 1234567890 ka balance bataiye kripya.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E47",
+  "body": "Mujhe pichle mahine ka bank statement chahiye, khata 1234567890.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E48",
+  "body": "कृपया मेरे खाता संख्या 1234567890 का बैलेंस बताइए।",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E49",
+  "body": "Hello,\n\nPlease share the balance of my account 1234567890.\n\nRegards,\nJohn Doe\n\nSent from my iPhone",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E50",
+  "body": "<p>Please send <b>last 5 transactions</b> for card 4567XXXX8901</p>",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "count": 5,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E51",
+  "body": "I want to know my balance. Please reply quickly.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E52",
+  "body": "Please send the transactions on my credit card.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E53",
+  "body": "Share statement for last 3 months for account 5555666677.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [
+   "5555666677"
+  ],
+  "cards": [],
+  "period": "Last 3 months",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E54",
+  "body": "What's the minimum balance for a salary account and also send my balance for account 1234567890?",
+  "intents": [
+   "BALANCE_ENQUIRY",
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E55",
+  "body": "Is there any fee for e-statements? Also send my bank statement for April 2026.",
+  "intents": [
+   "STATEMENT_REQUEST",
+   "POLICY_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "period": "April 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E56",
+  "body": "Kindly block my debit card, I lost it.",
+  "intents": [
+   "GENERAL_INQUIRY"
+  ],
+  "accounts": [],
+  "cards": [],
+  "sentiment": "NEGATIVE_URGENT"
+ },
+ {
+  "id": "E57",
+  "body": "Good morning. Could you check how much balance is available in account 9876543210? Appreciate your help.",
+  "intents": [
+   "BALANCE_ENQUIRY"
+  ],
+  "accounts": [
+   "9876543210"
+  ],
+  "cards": [],
+  "sentiment": "POSITIVE"
+ },
+ {
+  "id": "E58",
+  "body": "Please send previous 6 transactions on card 4567XXXX8901 for my records.",
+  "intents": [
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "count": 6,
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E59",
+  "body": "Requesting statement of account 1234567890 for the period 1 March 2026 to 15 March 2026.",
+  "intents": [
+   "STATEMENT_REQUEST"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [],
+  "period": "01 Mar 2026 to 15 Mar 2026",
+  "sentiment": "NEUTRAL"
+ },
+ {
+  "id": "E60",
+  "body": "Please tell me the account balance for 1234567890 and the card usage for 4567XXXX8901, it's urgent.",
+  "intents": [
+   "BALANCE_ENQUIRY",
+   "CARD_TRANSACTIONS"
+  ],
+  "accounts": [
+   "1234567890"
+  ],
+  "cards": [
+   "4567XXXX8901"
+  ],
+  "sentiment": "NEGATIVE_URGENT"
+ }
+]

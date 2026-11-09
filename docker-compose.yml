@@ -1,0 +1,50 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    environment:
+      - OLLAMA_NUM_PARALLEL=4
+    volumes:
+      - ollama:/root/.ollama
+    ports:
+      - "11434:11434"
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    environment:
+      - POSTGRES_USER=bank
+      - POSTGRES_PASSWORD=bank
+      - POSTGRES_DB=email_automation
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bank -d email_automation"]
+      interval: 5s
+      retries: 10
+
+  email-agent:
+    build: .
+    container_name: email-agent
+    depends_on:
+      ollama:
+        condition: service_started
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - ENVIRONMENT=production
+      - LLM_PROVIDER=ollama
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - DATABASE_URL=postgresql+psycopg://bank:bank@postgres:5432/email_automation
+      - BANKING_API_HOST=127.0.0.1
+    volumes:
+      - ./logs:/app/logs
+
+volumes:
+  ollama:
+  pgdata:
